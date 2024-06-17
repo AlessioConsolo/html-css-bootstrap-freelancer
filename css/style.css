@@ -18,28 +18,15 @@
   background-color: #1abc9c;
 }
 
-.h-70px {
-  height: 70px;
-}
-
-.h-500px {
-  height: 500px;
+.green-link {
+  text-decoration: none;
+  color: #20b4a3;
 }
 
 /*********** LAYOUT CLASSES ***********/
 
-.content {
-  height: 50px;
-  background-color: red;
-  border: 1px solid black;
-}
-
 .body {
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.avatar-img img {
-  width: 275px;
 }
 
 .star::before {
@@ -88,4 +75,28 @@
   border-bottom: 2px solid rgb(209, 209, 209);
   display: block;
   padding: 3px 0px;
+}
+
+.fb {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px 17px;
+}
+
+.google {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px 12px;
+}
+
+.twitter {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px 14px;
+}
+
+.linkedin {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px 14px;
 }
