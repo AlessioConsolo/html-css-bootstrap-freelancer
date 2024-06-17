@@ -82,7 +82,10 @@
   margin-left: 7px;
 }
 
-/* .portfolio-cards img {
-  width: 310px;
-  border-radius: 3%;
-} */
+.underline::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid rgb(209, 209, 209);
+  display: block;
+  padding: 3px 0px;
+}
